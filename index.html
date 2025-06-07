@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CAMBIA ESTE TÍTULO -->
+    <title>Para la Rosa más Bella</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="hearts-container"></div>
+
+    <!-- Pantalla inicial -->
+    <div id="initial-screen">
+        <div class="content-wrapper">
+            <!-- PUEDES CAMBIAR ESTE TEXTO -->
+            <h1>He creado algo para ti...</h1>
+            <button id="heart-button" aria-label="Haz clic para comenzar">
+                <i class="fas fa-heart"></i>
+            </button>
+            <p>Con todo mi cariño.</p>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="main-content" class="hidden">
+        
+        <!-- Contenedor para la Animación del Ramo de 23 Rosas Detalladas -->
+        <div id="bouquet-container" class="bouquet-container"></div>
+
+        <!-- El texto personalizado -->
+        <div class="love-note">
+            <!-- PUEDES CAMBIAR ESTE TÍTULO -->
+            <h1>Felices 2 Meses, Mi Amor</h1>
+            <!-- AQUÍ ESCRIBE TU MENSAJE DE AMOR -->
+            <p>
+                Un ramo de 23 rosas que florece solo para ti. He intentado que sean tan bonitas como tú, aunque sé que eso es imposible. Gracias por llenar mi vida de color y felicidad. Eres mi todo. Te amo.
+            </p>
+        </div>
+    </div>
+
+    <!-- Elemento de audio -->
+    <audio id="background-music" loop>
+        <source src="Andrés Cepeda - Por El Resto De Mi Vida (Video Oficial).mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
